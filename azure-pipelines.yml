@@ -15,7 +15,7 @@ stages:
   - job: Build
     displayName: Build Job
     pool:
-      vmImage: 'Default'
+      vmImage: 'lens-aca--nex2nsg-c77b478bc-hhpp4'
     steps: 
 ## Publish Artifacts pipeline code in addition to Build and Push          
     - bash: echo Contents in System Default Working Directory; ls -R $(System.DefaultWorkingDirectory)        
